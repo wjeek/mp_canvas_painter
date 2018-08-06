@@ -1,0 +1,27 @@
+{
+  "name": "mp_canvas_painter",
+  "version": "1.0.0",
+  "description": "canvas auto painter for miniprogramme",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjeek/mp_canvas_painter.git"
+  },
+  "keywords": [
+    "canvas",
+    "mini",
+    "programme"
+  ],
+  "dependencies": {
+    "moment": "^2.17.1"
+  },
+  "author": "wjeek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjeek/mp_canvas_painter/issues"
+  },
+  "homepage": "https://github.com/wjeek/mp_canvas_painter#readme"
+}

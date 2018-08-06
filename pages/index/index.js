@@ -1,7 +1,9 @@
 //index.js
+const moment = require('moment')
 
 Page({
   data: {
+    date: moment(),
     painting: {},
     shareImage: ''
   },
@@ -48,6 +50,16 @@ Page({
             textAlign: 'left',
             top: 33,
             left: 96,
+            bolder: true
+          },
+          {
+            type: 'text',
+            content: moment().format('YYYY MM DD'),
+            fontSize: 16,
+            color: '#402D16',
+            textAlign: 'left',
+            top: 33,
+            left: 240,
             bolder: true
           },
           {
